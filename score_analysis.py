@@ -320,7 +320,7 @@ with tab3:
 
       #nhóm 2
       st.subheader('NHÓM 2:')
-      ZZ=X[kmea3s.labels_==1]
+      ZZ=X[kmeans.labels_==1]
       st.write('Điểm GPA cao nhất nhóm 2 là:',max(ZZ[0]))
       st.write('Điểm GPA thấp nhất nhóm 2 là:',min(ZZ[0]))
       st.write('Điểm trung bình homework cao nhất nhóm 2 là:',max(ZZ[1]))
