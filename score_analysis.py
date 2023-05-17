@@ -370,8 +370,8 @@ with tab3:
       st.write('Điểm GPA cao nhất nhóm 5 là:',max(ZZ4[0]))
       st.write('Điểm GPA thấp nhất nhóm 5 là:',min(ZZ4[0]))
       st.write('Điểm trung bình homework cao nhất nhóm 5 là:',max(ZZ4[1]))
+      st.write('Điểm trung bình homework thấp nhất nhóm 5 là:',min(ZZ4[1]))
     
-    st.write('Điểm trung bình homework thấp nhất nhóm 5 là:',min(ZZ4[1]))
     plt.figure(figsize=(4,4))
     plt.scatter(X[:, 0], X[:, 1], c=kmeans.labels_)
     plt.scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:,1])
